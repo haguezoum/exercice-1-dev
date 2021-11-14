@@ -93,15 +93,15 @@
             :class="[
               user.status === 'Validé'
                 ? 'valide'
-                : user.status === 'on validation'
-                ? 'on-validation'
+                : user.status === 'En validation'
+                ? 'En validation'
                 : user.status === 'Rejeté'
                 ? 'rejected'
                 : '',
             ]"
           >
             <option value="Validé">Validé</option>
-            <option value="on validation">on validation</option>
+            <option value="En validation">En validation</option>
             <option value="Rejeté">Rejeté</option>
           </select>
         </div>
